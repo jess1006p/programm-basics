@@ -17,7 +17,7 @@ from pprint import pprint
 import xmltodict
 
 router = {"ip": "ios-xe-mgmt.cisco.com",
-          "port": 10000,
+          "port": 1000,
           "user": "developer",
           "pass": "C1sco12345"}
 

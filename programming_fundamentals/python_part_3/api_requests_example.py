@@ -16,7 +16,7 @@ Illustrate the following concepts:
 import requests
 from pprint import pprint
 router = {"ip": "ios-xe-mgmt.cisco.com",
-	      "port": "9443",
+	      "port": "443",
           "user": "developer",
           "pass": "C1sco12345"}
 
@@ -35,4 +35,4 @@ pprint(r.text)
 
 api_data = r.json()
 interface_name = api_data["Cisco-IOS-XE-interfaces-oper:interface"]["name"]
-interface_name
+print(interface_name)

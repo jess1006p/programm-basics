@@ -14,8 +14,8 @@ Be sure to complete the [General Workstation Setup](https://github.com/CiscoDevN
 ### Python Environment Setup
 It is recommended that this lesson be completed using Python 3.8.  Other versions of Python 3 should also work.
 
-> **Note about Python 2:** Python 2 was [sunset](https://www.python.org/doc/sunset-python-2/) by Python Software Foundation on January 1, 2020. This means that no more updates to Python 2 are being worked on, including security updates.  Python 3 is now the recommended version of Python for everyone to use. Most Python developers of software, packages, and scripts have migrated to Python 3 already, however you may find some older scripts and tools that are no longer maintained that only work with Python 2. 
-> 
+> **Note about Python 2:** Python 2 was [sunset](https://www.python.org/doc/sunset-python-2/) by Python Software Foundation on January 1, 2020. This means that no more updates to Python 2 are being worked on, including security updates.  Python 3 is now the recommended version of Python for everyone to use. Most Python developers of software, packages, and scripts have migrated to Python 3 already, however you may find some older scripts and tools that are no longer maintained that only work with Python 2.
+>
 > You may see/hear references to Python 2 within the videos in this course from before January 2020, however all examples scripts and demos available in the GitHub repo to run have been updated to leverage Python 3.
 
 It is highly recommended to leverage Python Virtual Environments for completing exercises in this course.  
@@ -57,6 +57,8 @@ IOx Client is an application you'll run use to package, deploy and install appli
 
 Download and install version 1.4 or higher from [Cisco Downloads](https://software.cisco.com/download/home/286306005/type/286306762/release).  
 
+
+
 Save ioxclient into one of the following locations:
 
 * The `netprog_basics/application_hosting/iox` directory on your workstation
@@ -69,8 +71,16 @@ This lesson leverages the [IOx v1.11](https://devnetsandbox.cisco.com/RM/Diagram
 You will need to reserve an instance of the sandbox, and establish a VPN connection to your individual Sandbox to complete this lab.
 
 
+# Jess Note:
+couldn't download the IOx software since it requires permission so I've done the devnet lab instead:
+ https://developer.cisco.com/learning/tracks/iot/IoT-IOx-Apps/iot-iox-app-docker/
+This will only require the reserve the sandbox and connect to it through VPN.
+It will open a VS code environment where you can open a terminal and run all the instructions from the lab. I could only package the application but couldn't manage to deploy it.
+
+
+
 ## Download Slides
 
-You can download the slides for this lesson [here](https://developer.cisco.com/fileMedia/download/517a487c-4442-3408-a066-fe17c3795e07). 
+You can download the slides for this lesson [here](https://developer.cisco.com/fileMedia/download/517a487c-4442-3408-a066-fe17c3795e07).
 
 > *Suggestion: Right click, "Open in new tab"*
